@@ -1,0 +1,35 @@
+{
+  "name": "mesg",
+  "version": "0.0.1",
+  "description": "A compact, cross-browser solution for Javascript desktop notifications",
+  "main": "dist/mesg.js",
+  "scripts": {
+    "clean": "shx rm -rf dist",
+    "build": "shx rm -rf dist && shx mkdir -p dist && shx cp src/mesg.js dist/. && uglifyjs src/mesg.js -o dist/mesg.min.js",
+    "test": "karma start",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zanjs/mesg.js"
+  },
+  "author": "Julian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zanjs/mesg.js/issues"
+  },
+  "homepage": "https://github.com/zanjs/mesg.js",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.2",
+    "karma-coverage": "^0.4.2",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-jasmine": "^0.3.6",
+    "karma-mocha-reporter": "^1.0.2",
+    "shx": "^0.1.2",
+    "uglify-js": "^2.6.2"
+  }
+}
