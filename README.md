@@ -9,6 +9,12 @@ npm install mesg --save
 
 ## Use
 
+
+
+```javascript
+import Mesg from 'mesg';
+```
+
 ```javascript
 Mesg.create('Hello Mesg!')
 ```

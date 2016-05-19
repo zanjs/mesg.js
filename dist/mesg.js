@@ -1,8 +1,7 @@
 /**!
  * mesg.js
- * A compact, cross-browser solution for Javascript desktop notifications
- * 
- */
+ * 桌面消息通知
+**/
 
 // Window root
 var root = (window !== 'undefined' ? window : self);
@@ -323,7 +322,7 @@ var root = (window !== 'undefined' ? window : self);
 
             /* Fail if the browser is not supported */
             if (!self.isSupported) {
-                console.error('MesgError: push.js is incompatible with self browser.');
+                console.error('MesgError: Mesg.js is incompatible with self browser.');
                 return;
             }
 
