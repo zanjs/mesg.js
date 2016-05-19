@@ -2,6 +2,15 @@
 
 桌面消息通知中间件
 
+[![Gitter](https://badges.gitter.im/zanjs/mesg.js.svg)](https://gitter.im/zanjs/mesg.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Build Status](https://travis-ci.org/zanjs/mesg.js.svg?branch=master)](https://travis-ci.org/zanjs/mesg.js/) 
+[![Coverage Status](https://coveralls.io/repos/github/zanjs/mesg.js/badge.svg?branch=master)](https://coveralls.io/github/zanjs/mesg.js?branch=master) 
+[![npm](https://img.shields.io/npm/dm/mesg.svg?maxAge=2592000)](https://www.npmjs.com/package/mesg) 
+[![npm](https://img.shields.io/npm/v/mesg.svg?maxAge=3600)](https://www.npmjs.com/package/mesg)
+
+[![NPMI][nodei-image]][nodei-url]
+[nodei-image]: https://nodei.co/npm/mesg.png?downloads=true&downloadRank=true&stars=true
+[nodei-url]: https://www.npmjs.com/package/mesg
 
 ```
 npm install mesg --save
