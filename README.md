@@ -10,7 +10,7 @@
 
 Build
 
-[![Build Status](https://travis-ci.org/zanjs/mesg.js.svg?branch=master)](https://travis-ci.org/zanjs/mesg.js/) 
+[![Build Status](https://travis-ci.org/zanjs/mesg.js.svg?branch=master)](https://travis-ci.org/zanjs/mesg.js/) [![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/mesg.js.svg)](https://greenkeeper.io/) 
 [![devDependency Status][david-dev-image]][david-dev-url]
 
 
